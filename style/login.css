@@ -1,0 +1,135 @@
+@import "common.css";
+@import "media.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  padding: 0 0;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d2d5b 0% 50%, #ffffff 50% 100%);
+}
+
+.home-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-img img {
+  height: 100vh;
+  width: 85%;
+}
+
+.home-right {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-logo p {
+  width: 60%;
+  padding-bottom: 7px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.home-logo h4 {
+  width: 100%;
+  font-size: 17px;
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+.home-login-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-login-inputs span {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+input[type="text"] {
+  margin-bottom: 15px;
+  display: block;
+  border-radius: 5px;
+}
+
+input {
+  width: 330px;
+  padding: 10px 12px;
+  border: 2px solid #c1c7cd;
+}
+
+input[type="password"] {
+  display: block;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #9bc5f6;
+  transition: 0.3s;
+}
+
+.password-login {
+  display: flex;
+}
+
+.password {
+  position: relative;
+  width: 13%;
+  height: 40px;
+  background-color: #fff;
+  border: 2px solid #c1c7cd;
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+}
+
+.eye {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  text-align: center;
+  padding: 10px 13px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background-color: #1d2d5b;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+#bottom {
+  padding-top: 200px;
+  font-size: 12px;
+}

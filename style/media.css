@@ -1,0 +1,41 @@
+@media (max-width: 800px) {
+  .subject-table {
+    overflow-y: auto;
+    overflow-x: scroll;
+  }
+  .home-img img {
+    opacity: 0;
+    display: none;
+  }
+  .home-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header {
+    background-image: linear-gradient(to right, #ffffff 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 950px) {
+  .subject-table {
+    overflow-y: auto;
+    overflow-x: scroll;
+  }
+  .subject-table::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .subject-table::-webkit-scrollbar-track {
+    background-color: grey;
+  }
+
+  .subject-table::-webkit-scrollbar-thumb {
+    background-color: #1d2d5b;
+  }
+}
