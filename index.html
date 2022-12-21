@@ -4,169 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Panel</title>
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style/login.css" />
+    <title>Document</title>
   </head>
   <body>
-    <aside>
-      <div class="aside-top">
-        <div class="logo">
-          <a href="#">
-            <img src="images/logo.png" alt="" />
-            <div class="logo-content">
-              <span>
-                Muhammad al-Xorazmiy
-              </span>
-              <span>nomidagi Toshkent Axborot </span>
-              <span>Texnologiyalari Universiteti</span>
-            </div>
-          </a>
-        </div>
-        <ul>
-          <li>
-            <a href="#"
-              ><i class="uil uil-create-dashboard"></i><span>Dashboard</span></a
-            >
-          </li>
-          <li>
-            <a href="index2.html">
-              <i class="uil uil-book-reader"></i></i
-              ><span>Mening fanlarim</span></a
-            >
-          </li>
-          <li>
-            <a href="#">
-              <i class="uil uil-clipboard-alt"></i><span>Dars Jadvali</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="uil uil-calculator"></i><span>Qayta O'qish</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="uil uil-question-circle"></i><span>Yakuniy</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><i class="uil uil-exclamation-circle"></i><span>Ma'lumot</span></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><i class="uil uil-chart-bar"></i><span>So'rovnoma</span></a
-            >
-          </li>
-        </ul>
+    <header>
+      <div class="home-img">
+        <img src="images/login-img.svg" alt="" />
       </div>
-      <div class="aside-bottom">
-        <ul>
-          <li>
-            <div class="switch">
-              <input type="checkbox" />
+      <div class="container">
+        <div class="home-right">
+          <div class="home-logo">
+            <p>
+              MUHAMMAD AL-XORAZMIY NOMIDAGI TOSHKENT AXBOROT TEXNOLOGIYALARI
+              UNIVERSITETI
+            </p>
+            <img src="images/login-img2.png" alt="" width="75" height="75" />
+            <h4>LEARNING MANAGEMENT SYSTEM</h4>
+          </div>
+          <div class="home-login-inputs">
+            <form action="">
+            <span>Login</span>
+            <input placeholder="Loginni kiriting" type="text" />
+            <span>Parol</span>
+            <div class="password-login">
+                <input placeholder="Parolni kiriting" type="password" id="password" name="password"/>
+                <div class="password">
+                    <i class="eye bi bi-eye-slash" id="togglePassword"></i>
             </div>
-          </li>
-        </ul>
+        </form>
+    </div>
+    <a class="submit-btn" href="index.html">Kirish</a>     
+</div>
+<p id="bottom">Copyright © 2021 of Tashkent University of Information Technologies</p>
+   </div>
       </div>
-    </aside>
-    <main>
-      <nav>
-        <button class="hamburger">
-          <i class="uil uil-bars"></i>
-        </button>
-        <div class="right">
-          <div class="right-content">
-            <p>Server vaqti</p>
-            <span>20.12.2022 | 17:03</span>
-          </div>
-          <i class="uil uil-video"></i>
-          <i class="uil uil-user"></i>
-        </div>
-      </nav>
-      <section id="dashboard">
-        <div class="dashboard-cards">
-          <div class="dashboard-card">
-            <h4>Topshiriqlarning bajarish muudati uzaytirilganligi</h4>
-            <p>Topshiriqlarning bajarish muudati uzaytirilganligi</p>
-            <div class="dashboard-deadline">
-              <p>01.11.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-          <div class="dashboard-card">
-            <h4>Talabalar turar joyiga joylashmoqchi bolganlarga!</h4>
-            <p>Talabalar turar joyiga joylashmoqchi bolganlarga!</p>
-            <div class="dashboard-deadline">
-              <p>01.11.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-          <div class="dashboard-card">
-            <h4>Appelyasiya</h4>
-            <p >Appelyasiya</p>
-            <div class="dashboard-deadline">
-              <p>01.08.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-          <div class="dashboard-card">
-            <h4>4-kurslar uchun yakuniy nazoratlar</h4>
-            <p>Yakuniny nazoratlar kunlari va vaqtlari</p>
-            <div class="dashboard-deadline">
-              <p>17.05.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-          <div class="dashboard-card">
-            <h4>Dam olish kunlari</h4>
-            <p>hayit bayrami</p>
-            <div class="dashboard-deadline">
-              <p>30.04.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-          <div class="dashboard-card">
-            <h4>Professor o'qituvchi tanlovi vaqti (2-kurs)</h4>
-            <p>Professor o'qituvchi tanlovi jarayonlari uzaytirildi!</p>
-            <div class="dashboard-deadline">
-              <p>26.03.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-          <div class="dashboard-card">
-            <h4>Professor o'qituvchi tanlovi (2-kurs)</h4>
-            <p>Professor o'qituvchi tanlovi chorshanba (26.03.2022) kuni o'...</p>
-            <div class="dashboard-deadline">
-              <p>26.03.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-          <div class="dashboard-card">
-            <h4>1 va 3-kurs uchun semestr boshlanishi</h4>
-            <p>Bahorgi semestr 04.04.2022 sanadan boshlanadi.</p>
-            <div class="dashboard-deadline">
-              <p>26.03.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-          <div class="dashboard-card">
-            <h4>2-kurslar uchun semestr boshlanishi</h4>
-            <p>4-semestr 28.03.2022 sanadan boshlanadi</p>
-            <div class="dashboard-deadline">
-              <p>26.03.2022</p>
-              <a href="#">Batafsil</a>
-            </div>
-          </div>
-        </div>
-        <p class="dashboardtext">« Oldingi Keyingi »</p>
-      </section>
-    </main>
-    <script src="js/main.js"></script>
+    </header>
+    <script src="js/psw.js"></script>
   </body>
 </html>
